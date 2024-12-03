@@ -23,7 +23,7 @@ RUN npm install && npm install -g qrcode-terminal pm2
 COPY . .
 
 # Expose the port your app runs on
-EXPOSE 5000
+EXPOSE 8080
 
 # Command to run the application
 CMD ["npm", "start"]
