@@ -1,23 +1,32 @@
 {
-"name": "web-pair",
-    "version": "0.0.1",
-    "description": "A multi functional whatsapp bot Web paircode.",
-    "main": "index.js",
-    "scripts": {
-      "start": "pm2 start index.js --deep-monitoring --attach --name prabath",
-      "stop": "pm2 stop prabath",
-     "restart": "pm2 restart prabath"
-    },
+  "name": "Elix-MD",
+  "version": "1.0.0",
+  "description": "A WhatsApp bot created using Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js --deep-monitoring --attach --name Elixa",
+    "stop": "pm2 stop Elixa",
+    "restart": "pm2 restart Elix"
+  },
   "dependencies": {
-    "@whiskeysockets/baileys": "git+https://github.com/prabathLK/Baileys-6.0.0.git#master",
-    "qrcode": "^1.5.3",
-    "awesome-phonenumber": "^2.64.0",
-    "pino": "^8.1.0",
-    "phone" : "3.1.30",
-    "body-parser": "^1.20.1",
-    "express": "^4.18.1",
-    "path": "^0.12.7",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@whiskeysockets/baileys": "^6.7.5",
+    "api-dylux": "1.8.5",
+    "axios": "^1.2.5",
+    "dotenv": "^16.4.6",
+    "express": "latest",
+    "file_size_url": "^1.0.4",
+    "fs-extra": "^11.1.0",
     "megajs": "^1.1.0",
-    "pm2": "^5.2.0"
-   }
+    "moment-timezone": "0.5.45",
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7",
+    "pino": "^7.0.5",
+    "pm2": "^5.2.0",
+    "qrcode-terminal": "^0.12.0",
+    "util": "^0.12.4",
+    "vm": "^0.1.0",
+    "yt-search": "2.12.0",
+    "wa-sticker-formatter":"4.4.4"
+  }
 }
